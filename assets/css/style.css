@@ -1,0 +1,266 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position:center;
+    background-blend-mode: color-burn;
+    background-repeat: no-repeat;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTWYenGebfzJCuwiR4WdjzTzI7BdavwbbeHA&s);
+}
+.box{
+    box-shadow: rgba(0, 0, 0, 0.233) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.219) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.158) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.151) 0px 4px 2px, rgba(0, 0, 0, 0.13) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.24) 0px 32px 16px;
+    border-radius: 20px;
+    height: 600px;
+    width: 700px;
+    margin: 30px 330px;
+}
+.box h1{
+    text-align: center;
+    color:blue;
+    font-size: 70px;
+}
+.box input{
+    color:white;
+    width: 75%;
+    padding: 30px;
+    margin: 20px 80px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(241, 88, 241, 0.76);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.box button{
+    padding: 20px;
+    width: 30%;
+    margin: 20px 65px;
+    border: none;
+    color: blue;
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: rgba(241, 88, 241, 0.76);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.box p{
+    color:rgba(241, 88, 241, 0.76);
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 70px;
+    font-family:fantasy;
+    margin-top: 50px;
+}
+.task {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding: 5px 60px;
+    border-radius: 20px;
+    color: rgba(241, 88, 241, 0.76);
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.task .btn{
+    width: 30%;
+    margin: 20px 50px;
+}
+
+@media (max-width: 1102px) {
+    .box {
+        width: 70%;
+        margin: 30px auto;
+    }
+    .box h1 {
+        font-size: 50px;
+    }
+    .box input {
+        width: 80%; 
+        padding: 20px;
+        margin: 20px 60px;
+    }
+    .box button {
+        width: 35%;
+        font-size: 14px;
+        margin: 20px 45px;
+    }
+    .box p {
+        font-size: 60px;
+        margin-top : 60px;
+    }
+}
+@media (max-width: 1024px) {
+    .box button{
+        width: 30%;
+        font-size: 14px;
+        margin: 20px 60px;
+    }
+    .box p {
+        font-size: 60px;
+    }
+    .task {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .task .btn {
+    width: 40%; 
+    margin: 5px auto; 
+}
+}
+ 
+@media (max-width: 880px) {
+    .box button{
+        width: 30%;
+        font-size: 14px;
+        margin: 20px 55px;
+    }
+    .box p {
+        font-size: 50px;
+    }
+    .task {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+    .task .btn {
+        width: 30%; 
+        margin: 5px auto; 
+    }
+}
+
+@media (max-width: 868px) {
+    .box button{
+        width: 30%;
+        margin: 20px 45px;
+    }
+}
+
+@media (max-width: 820px) {
+     .box button{
+        width: 50%;
+        margin: 20px 140px;
+     }
+}
+@media (max-width: 700px) {
+    .box input{
+        width: 70%; 
+        padding: 20px;
+        margin: 20px 60px;
+    }
+    .box button{
+        width: 40%;
+        margin: 20px 150px;
+    }
+    .box p {
+        font-size: 40px;
+    }
+    .task {
+        font-size: 13px;
+        padding: 10px 13px;
+    }
+    .task .btn {
+        width: 30%; 
+        margin: 5px auto; 
+    }
+}
+
+@media (max-width: 625px) {
+    .box button{
+        margin: 20px 130px;
+    }
+    .box p {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 575px) {
+    .task {
+        font-size: 13px;
+        padding: 10px 13px;
+    }
+    .task .btn {
+        width: 30%; 
+        margin: 5px auto; 
+        font-size:13px ;
+    }
+}
+
+@media (max-width: 550px) {
+    .task .btn {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 525px) {
+    .box button{
+        margin: 20px 110px;
+    }
+    .box p {
+        font-size: 30px;
+    }
+    .task .btn {
+        font-size:10px ;
+    }
+}
+
+@media (max-width: 480px) {
+    .box{
+        height: 640vh;
+    }
+    .box button{
+        margin: 20px 100px;
+    }
+    .task{
+        display: block;
+        text-align: center;
+        font-size: 12px;
+        margin: 5px auto;
+    }
+    .task .btn {
+        display: block;
+         width: 40%;
+         margin: 5px auto; 
+    }
+}
+
+@media (max-width: 450px) {
+    .box input{
+      margin: 20px 50px;
+    }
+}
+
+@media (max-width: 400px) {
+    .box input{
+      margin: 20px 40px;
+    }
+    .box button{
+        margin: 20px 90px;
+    }
+    .box p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    .box input{
+        margin: 20px 35px;
+      }
+    .box button{
+        margin: 20px 80px;
+    }
+}
+
+@media (max-width: 414px) {
+    .box input{
+        margin: 20px 42px;
+      }
+    .box button{
+        margin: 20px 82px;
+    }
+}
